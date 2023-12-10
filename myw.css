@@ -1,0 +1,79 @@
+.no {
+    display:flex;
+    color:red;
+    justify-content:center;
+    font-size:2.5em;
+    font-weight:800;
+    margin-bottom:30px;
+}
+.cont {
+    display: flex;
+    color: red;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.card {
+    background-color:#0D0D0D;
+    wedith:21.5em;
+    box-shadow: 0 5px 25px rgba(250 0 0 / 20%);
+    border-radius:10px;
+    padding:25px;
+    margin:50px;
+    transition:0.7s ease;
+}
+.card:hover {
+    background-color: #171717;
+    transform: scale(1.1)
+}
+.icon {
+    color:red;
+    font-size:8em;
+    text-align:center;
+}
+.info{
+    text-align:center;
+}
+.info h3{
+    color:red;
+    font-size:1.2em;
+    font-weight:700;
+    margin :10px;
+}
+.sec {
+    background-color:black;
+}
+
+@media (max-wedith:1023px){
+    header{
+        padding:12px 20px;
+    }
+    .navagation{
+        padding:10px;
+    }
+    .no{
+        font-size:1.8em;
+    }
+    .sec{
+        padding:80px 20px;
+    }
+    .main {
+        font-size: 1em;
+        background-size: contain;
+        background-position:unset;
+        height:auto;
+    }
+
+}
+
+.navigation a {
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+
+    .navigation a:hover {
+        color: #FFCCCB
+    }
