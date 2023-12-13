@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin=0;
+    padinng =0;
+    box-sizing: border-box ;
+    scroll-behavior:smooth ;
+}
+header{
+        background-color : black;
+        width: 98.9%;
+        position:fixed;
+        z-index:999;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:10px 150px;
+}
+.logo{
+    text-decoration:none;
+    color :red;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:2em;
+}
+section {
+        padding: 180px 180px;
+
+    }
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/p.png) no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment:fixed;
+
+
+}
+.main h2 {
+    color:red;
+    font-size:1.5em;
+    font-weight:600;
+}
+.main h2 span {
+        display:inline-block;
+        margin-top:10px;
+        
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .main h3 {
+        color: red;
+        font-size: 2em;
+        font-weight: 600;
+        letter-spacing:1px;
+        margin-bottom:10px;
+        margin-top:10px;
+        }
+    
+        .main1 {
+            text-decoration: none;
+            color: aliceblue;
+            background-color: red;
+            font-size: 1.5em;
+            font-weight: 600;
+            display: inline-block;
+            padding: 0.9375em 2.1875em;
+            letter-spacing: 1px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            transition: 0.7s ease;
+        }
+    .main1:hover{background-color:darkred;
+                 transform:scale(1.1)
+    }
+.social a {
+    color: red;
+    font-size: 2.5em;
+
+    padding-right: 30px;
+}
+.social a :hover {
+    transform: scale(1.3) }
+
