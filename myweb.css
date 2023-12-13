@@ -6,6 +6,7 @@
     padinng =0;
     box-sizing: border-box ;
     scroll-behavior:smooth ;
+    background-color: none;
 }
 header{
         background-color : black;
